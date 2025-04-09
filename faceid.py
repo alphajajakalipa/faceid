@@ -32,7 +32,7 @@ while (True):
             # Draw the rectangle around every eye
             cv2.rectangle(roi_color, (sx, sy), (sx + sw, sy + sh), (0, 0, 255), 2)
     out.write(frame)
-    cv2.imshow('Nhan dien khuon mat', frame)
+    cv2.imshow('powered by an apple pie', frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
